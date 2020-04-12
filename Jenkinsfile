@@ -24,7 +24,7 @@ pipeline {
       }
         stage('deploy'){
         steps {
-          build 'alldevops'
+          build 'holliday-project17'
            
         }
       
