@@ -20,7 +20,7 @@ pipeline {
       }
         stage('test '){
         steps {
-            retry(4){
+            retry(2){
           echo  "test step"
             }
           sh 'mvn test'
