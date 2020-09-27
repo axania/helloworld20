@@ -13,7 +13,7 @@
   <artifactId>webapps</artifactId>
   <packaging>war</packaging>
   <name>webapps</name>
-  <description>webapp.</description>
+  <description>webapps.</description>
 
   <build>
     <finalName>${project.artifactId}</finalName>
